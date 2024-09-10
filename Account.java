@@ -42,7 +42,7 @@ public class Account {
 		System.out.println("Deposit the amount Rs.6000 ");
 		a.depositbalance(6000);
 		System.out.println("Total Amount after deposit :  " + a.getcheckbalance());
-		System.out.println("Withdraw amount Rs.6000  : ");
+		System.out.println("Withdraw amount Rs.4000  : ");
 		a.withdraw(4000);
 		System.out.println("Amount after withdraw " + a.getcheckbalance());
 		System.out.println("Total Balance amount  : "+ a.getcheckbalance());
